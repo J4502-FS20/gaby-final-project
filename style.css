@@ -1,0 +1,95 @@
+#nav{
+  background-color: #977286;
+  width: 100%;
+  margin: 0px;
+
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Grenze Gotisch', serif;
+  color: #977286;
+  text-align: center;
+}
+
+h1 {
+  font-size:2.5em;
+}
+
+img {
+    border: none;
+    width: 50%;
+    max-width: 600px;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  color: #140900;
+  text-align: left;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 25px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Grenze', serif;
+  color: #f5f5f5;
+}
+
+li{
+  display: inline;
+  padding: 14px 16px;
+}
+
+li a{
+  display: inline-block;
+  padding: 14px 16px;
+}
+
+ul a{
+  text-decoration: none;
+  color: #f5f5f5;
+}
+
+ul a:hover{
+  color: #adadad;
+}
+
+a {
+  text-decoration: none;
+  color:#977286;
+}
+
+a:hover{
+  color:#adadad;
+}
+#intro {
+  font-size:1em;
+  margin: auto;
+
+}
+#intro-header {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#nav {
+  font-size: 1.5em;
+}
+
+th {
+  font-family: 'Grenze Gotisch', serif;
+  color: #977286;
+  text-align: center;
+}
+
+.third {
+    width: 33%;
+   display: inline-block;
+}
