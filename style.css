@@ -19,10 +19,20 @@ h1 {
   font-size:2.5em;
 }
 
+h2 {
+  font-size: 2em;
+}
+
+h3{
+  font-size: 1.5em;
+  color: #140900;
+}
+
 img {
     border: none;
     width: 50%;
     max-width: 600px;
+    padding-right: 10px;
 }
 
 p{
@@ -92,4 +102,9 @@ th {
 .third {
     width: 33%;
    display: inline-block;
+}
+
+#iframe{
+  text-align:center;
+  display:block;
 }
