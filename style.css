@@ -110,3 +110,11 @@ a:hover{
   text-align:center;
   display:block;
 }
+
+.selectHolder {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #555;
+}

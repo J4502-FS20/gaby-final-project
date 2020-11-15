@@ -8,6 +8,7 @@
     <meta name="keywords" content="playlist based on astrology">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;500;900&family=Grenze:wght@400;900&family=Roboto&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
   </head>
   <body>
     <nav>
@@ -23,29 +24,38 @@
     </nav>
     <h1>Gaby, astrology is fake!</h1>
     <p>Well, well, well... we've got ourselves a non-believer. Lucky for you, I spent all quarantine making silly playlists. And since it would be a shame to let them sit there all alone — I guess I will share them with the world. They each have a general mood or theme.</p>
-    <h3> <a href="#fun">Fun</a> | <a href="#intense">Intense | <a href="#down">Toned Down | <a href="#sad">Sad | <a href="#angry">Angry | <a href="#spooky">Spooky</a></h3>
+    <section class="selectHolder">
+    <select id="dropdownMenu">
+      <option value="fun">Fun</option>
+      <option value="intense">Intense</option>
+      <option value="down">Toned Down</option>
+      <option value="sad">Sad</option>
+      <option value="angry">Angry</option>
+      <option value="spooky">Spooky</option>
+    </select>
+  </section>
     <div id="iframe">
-    <section id="fun">
+    <section class="signName">
     <h2>Fun</h2>
     <iframe src="https://open.spotify.com/embed/playlist/3IECVIFBmyjHPCPqZj25CW" width="80%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   </section>
-  <section id="intense">
+  <section class="signName">
   <h2>Intense</h2>
   <iframe src="https://open.spotify.com/embed/playlist/0Dr0GsFh1a9A2PBB2Udblz" width="80%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </section>
-<section id="down">
+<section class="signName">
 <h2>Toned Down</h2>
   <iframe src="https://open.spotify.com/embed/playlist/3uf47uXPhhYydphMjCkuoK" width="80%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </section>
-<section id="sad">
+<section class="signName">
 <h2>Sad</h2>
 <iframe src="https://open.spotify.com/embed/playlist/6iLtuJjtxxtUxJEiB5yDcr" width="80%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </section>
-<section id="angry">
+<section class="signName">
 <h2>Angry</h2>
 <iframe src="https://open.spotify.com/embed/playlist/0vzW338nSrDWwWQhZtgVhC" width="80%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </section>
-<section id="spooky">
+<section class="signName">
 <h2>Spooky</h2>
 <iframe src="https://open.spotify.com/embed/playlist/7fCG77gZ9dFYhkXDRamebR" width="80%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </section>
