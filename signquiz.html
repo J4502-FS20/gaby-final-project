@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Big three playlists</title>
+    <meta name="description" content="A website that gives you a playlist based on astrology">
+    <meta name="author" content="Gaby Morera">
+    <meta name="keywords" content="playlist based on astrology">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;500;900&family=Grenze:wght@400;900&family=Roboto&display=swap" rel="stylesheet">
+    <script src="quiz.js" defer></script>
+  <head>
+    <body>
+      <nav>
+        <div id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="glossary.html">Glossary</a></li>
+            <li><a href="sunplaylists.html">Sun sign playlists</a></li>
+            <li><a href="signquiz.html">Sign Quiz</a></li>
+            <li><a href="moodplaylists.html">And if you're not a fan of the stars...</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Celebrity sign quiz</h1>
+      <p>Sometimes when I listen to music, I wonder if I can guess the artist's sign correctly. Often, I'm wrong - but sometimes I'm right. Music and their public persona is a big way in which you can tell celebrities signs apart. Take the quiz to practice your guessing skills (but my playlists might give you some hints).</p>
+      <form id="quiz" name="quiz">
+
+        <fieldset>
+        <legend>1)What is Miley Cyrus' sign?</legend>
+          <input type ="radio" name="question1" value="answer1"> Libra<br>
+          <input type ="radio" name="question1" value="answer2"> Aries<br>
+          <input type ="radio" name="question1" value="answer3"> Leo<br>
+          <input type ="radio" name="question1" value="answer4"> Sagittarius<br>
+        </fieldset>
+        <fieldset>
+        <legend>2)What is Ariana Grande's sign?</legend>
+          <input type ="radio" name="question2" value="answer5"> Cancer<br>
+          <input type ="radio" name="question2" value="answer6"> Pisces<br>
+          <input type ="radio" name="question2" value="answer7"> Taurus<br>
+          <input type ="radio" name="question2" value="answer8"> Capricorn<br>
+        </fieldset>
+        <fieldset>
+        <legend>3)What is Alex Turner, the lead singer of the Arctic Monkeys, sign?</legend>
+          <input type ="radio" name="question3" value="answer9"> Scorpio<br>
+          <input type ="radio" name="question3" value="answer10"> Capricorn<br>
+          <input type ="radio" name="question3" value="answer11"> Aquarius<br>
+          <input type ="radio" name="question3" value="answer12"> Gemini<br>
+        </fieldset>
+        <fieldset>
+        <legend>4)What is Harry Style's sign?</legend>
+          <input type ="radio" name="question4" value="answer13"> Libra<br>
+          <input type ="radio" name="question4" value="answer14"> Cancer<br>
+          <input type ="radio" name="question4" value="answer15"> Pisces<br>
+          <input type ="radio" name="question4" value="answer16"> Aquarius<br>
+        </fieldset>
+        <fieldset>
+        <legend>5)What is Lady Gaga's sign?</legend>
+          <input type ="radio" name="question5" value="answer17"> Aries<br>
+          <input type ="radio" name="question5" value="answer18"> Leo<br>
+          <input type ="radio" name="question5" value="answer19"> Scorpio<br>
+          <input type ="radio" name="question5" value="answer20"> Sagittarius<br>
+        </fieldset>
+        <fieldset>
+        <legend>6)What is Troye Sivan's sign?</legend>
+          <input type ="radio" name="question6" value="answer21"> Gemini<br>
+          <input type ="radio" name="question6" value="answer22"> Taurus<br>
+          <input type ="radio" name="question6" value="answer23"> Virgo<br>
+          <input type ="radio" name="question6" value="answer24"> Aquarius<br>
+        </fieldset>
+        <fieldset>
+        <legend>7)What is Maggie Roger's sign?</legend>
+          <input type ="radio" name="question7" value="answer25"> Gemini<br>
+          <input type ="radio" name="question7" value="answer26"> Taurus<br>
+          <input type ="radio" name="question7" value="answer27"> Virgo<br>
+          <input type ="radio" name="question7" value="answer28"> Aquarius<br>
+        </fieldset>
+        <fieldset>
+        <legend>8)What is Dua Lipa's sign?</legend>
+          <input type ="radio" name="question8" value="answer29"> Scorpio<br>
+          <input type ="radio" name="question8" value="answer30"> Libra<br>
+          <input type ="radio" name="question8" value="answer31"> Capricorn<br>
+          <input type ="radio" name="question8" value="answer32"> Leo<br>
+        </fieldset>
+        <input id="button" type="button" value="Submit" onclick="check();">
+
+
+
+
+
+
+        <div id="cta1">
+          <div id="results">
+          <p id="message"></p>
+          <p id="number_correct"></p>
+          </div>
+        </form>
+      <div id="foot">
+        <ul>
+          <li><a href="#nav">Back to top</a></li>
+        </ul>
+      </div>
+    </body>
+</html>

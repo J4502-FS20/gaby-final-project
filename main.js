@@ -1,5 +1,5 @@
 "use strict";
-
+//Page 1 script
 var dropdown = document.getElementById('dropdownMenu');
 
 var playlistSelectionDivs = document.getElementsByClassName('signName');
@@ -16,4 +16,5 @@ for (var i = 0; i < dropdown.options.length; i++) {
 dropdown.addEventListener('change', function() {
   var selectedSection = document.getElementById(dropdown.value);
   selectedSection.scrollIntoView({behavior: "smooth"});
+
 });
